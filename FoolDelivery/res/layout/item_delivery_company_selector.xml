@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/listview_item_bg_selector">
+    <com.weiwend.fooldelivery.customviews.MyLoaderImageView 
+        android:id="@+id/mLoaderImageView"
+        android:layout_width="@dimen/listview_icon_width"
+        android:layout_height="@dimen/listview_icon_height"
+        android:layout_margin="@dimen/listview_icon_margin"/>
+	<TextView
+	     android:id="@+id/mTitleView" 
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_marginLeft="@dimen/item_company_select_text_margin_left"
+	     android:layout_marginRight="@dimen/item_company_select_text_margin_right"
+	     android:textSize="@dimen/textsize_big"
+	     android:textColor="@color/black"
+	     android:singleLine="true"/>
+</LinearLayout>

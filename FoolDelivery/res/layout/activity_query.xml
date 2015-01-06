@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    
+    <include layout="@layout/activity_query_second"/>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.weiwend.fooldelivery.customviews.MyTabView
+            android:id="@+id/mTabView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+	    <LinearLayout
+	        android:layout_above="@id/mTabView" 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical"
+	        android:layout_alignParentTop="true">
+		    
+		    <RelativeLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/query_history_container_height"
+		        android:layout_marginTop="@dimen/query_history_container_margin_top"
+		        android:layout_marginLeft="@dimen/query_hit_container_margin_left"
+		        android:layout_marginRight="@dimen/query_hit_container_margin_right"
+		        android:background="@color/bg_hit_to_refresh_container">
+		        <TextView
+		            android:id="@+id/mQueryHistoryTv"
+	                android:layout_width="@dimen/query_history_text_width"
+	                android:layout_height="wrap_content"
+	                android:textColor="@color/white"
+	                android:textSize="@dimen/query_history_text_textsize"
+	                android:paddingLeft="@dimen/query_history_text_padding_left"
+	                android:text="@string/query_history"
+	                android:layout_alignParentLeft="true"
+	                android:layout_centerVertical="true"
+	                android:background="@drawable/history_delete_bg3"
+	                android:gravity="center_vertical"/>
+		        <Button
+		            android:id="@+id/mDeleteBtn"
+	                android:layout_width="@dimen/query_history_delete_btn_width"
+	                android:layout_height="@dimen/query_history_delete_btn_height"
+	                android:layout_marginRight="@dimen/query_history_delete_btn_margin_right"
+	                android:background="@drawable/delete3"
+	                android:layout_alignParentRight="true"
+	                android:layout_centerVertical="true"/>
+		        <TextView
+		            android:layout_toLeftOf="@id/mDeleteBtn"
+		            android:layout_toRightOf="@id/mQueryHistoryTv"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginRight="@dimen/query_hit_text_margin_right"
+		            android:text="@string/hit_to_refresh"
+		            android:layout_centerVertical="true"
+		            android:textColor="@color/white"
+	                android:textSize="@dimen/textsize_smallest"
+	                android:gravity="right"/>
+		    </RelativeLayout>
+		    
+		    <com.handmark.pulltorefresh.library.PullToRefreshListView
+		        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+		        android:id="@+id/mPullToRefreshListView"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_marginLeft="@dimen/listview_margin_left"
+		        android:layout_marginRight="@dimen/listview_margin_right"
+		        android:cacheColorHint="@color/listview_cache_color_hint"
+		        android:divider="@null"
+		        android:fadingEdge="none"
+		        android:fastScrollEnabled="false"
+		        android:footerDividersEnabled="false"
+		        android:headerDividersEnabled="false"
+		        android:smoothScrollbar="true"
+		        ptr:ptrAnimationStyle="flip"
+		        android:visibility="visible"/>
+	    </LinearLayout>
+    </RelativeLayout>
+    
+    
+    
+</LinearLayout>

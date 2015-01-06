@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    
+    <include layout="@layout/activity_title"/>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/query_failed_title_margin_top"
+        android:text="@string/query_failed_prompt1"
+        android:textSize="@dimen/textsize_big"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"/>
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/query_failed_item_margin_top"
+        android:text="@string/query_failed_prompt2"
+        android:textSize="@dimen/textsize_big"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"/>
+    <TextView
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/listview_divider_height"
+	    android:layout_marginTop="@dimen/query_failed_line_margin_top"
+	    android:layout_marginLeft="@dimen/query_failed_line_margin_left"
+	    android:layout_marginRight="@dimen/query_failed_line_margin_right"
+	    android:background="@color/divider_line"/>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/query_failed_blue_text_margin_left"
+        android:layout_marginLeft="@dimen/query_failed_blue_text_margin_right"
+        android:text="@string/query_failed_prompt3"
+        android:textSize="@dimen/textsize_big"
+        android:textColor="@color/bg_query_failed_text_blue"/>
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/query_failed_item_margin_top"
+        android:layout_marginLeft="@dimen/query_failed_item_margin_left"
+        android:text="@string/query_failed_prompt4"
+        android:textSize="@dimen/textsize_small"
+        android:textColor="@color/black"/>
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/query_failed_item_margin_top"
+        android:layout_marginLeft="@dimen/query_failed_item_margin_left"
+        android:text="@string/query_failed_prompt5"
+        android:textSize="@dimen/textsize_small"
+        android:textColor="@color/black"/>
+</LinearLayout>

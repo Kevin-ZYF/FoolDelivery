@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title"/>
+    
+    <com.weiwend.fooldelivery.customviews.MyReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+		    <RelativeLayout
+		        android:id="@+id/mContainer1" 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="@dimen/setting_item_margin_left"
+		        android:layout_marginRight="@dimen/setting_item_margin_right"
+		        android:layout_marginTop="@dimen/setting_item_margin_top"
+		        android:layout_marginBottom="@dimen/setting_item_margin_bottom">
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="@dimen/setting_item_textsize"
+		            android:textColor="@drawable/text_color_black_white_selector"
+		            android:text="@string/setting_third_item0"
+		            android:layout_alignParentLeft="true"
+		            android:layout_centerVertical="true"/>
+		        <Button
+		            android:id="@+id/mArrow0Btn" 
+		            android:layout_width="@dimen/setting_arrow_width"
+		            android:layout_height="@dimen/setting_arrow_height"
+		            android:layout_marginRight="@dimen/setting_item_arrow_margin_right"
+		            android:background="@drawable/arrow_up_single"
+		            android:layout_alignParentRight="true"
+		            android:layout_centerVertical="true"
+		            android:visibility="invisible"/>
+			</RelativeLayout>
+			
+		    <TextView 
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/listview_divider_height"
+		        android:background="@color/divider_line"/>
+		    
+		    <RelativeLayout
+		        android:id="@+id/mContainer2"  
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="@dimen/setting_item_margin_left"
+		        android:layout_marginRight="@dimen/setting_item_margin_right"
+		        android:layout_marginTop="@dimen/setting_item_margin_top"
+		        android:layout_marginBottom="@dimen/setting_item_margin_bottom">
+		        
+		        <Button
+		            android:id="@+id/mArrow1Btn" 
+		            android:layout_width="@dimen/setting_arrow_width"
+		            android:layout_height="@dimen/setting_arrow_height"
+		            android:layout_marginRight="@dimen/setting_item_arrow_margin_right"
+		            android:background="@drawable/arrow_up_single"
+		            android:layout_alignParentRight="true"
+		            android:layout_centerVertical="true"
+		            android:visibility="invisible"/>
+		        <TextView 
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:textSize="@dimen/setting_item_textsize"
+		            android:textColor="@drawable/text_color_black_white_selector"
+		            android:text="@string/setting_third_item1"
+		            android:layout_toLeftOf="@id/mArrow1Btn"
+		            android:layout_centerVertical="true"/>
+			</RelativeLayout>
+			
+		    <TextView 
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/listview_divider_height"
+		        android:background="@color/divider_line"/>
+		    
+		    <RelativeLayout
+		        android:id="@+id/mContainer3"  
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="@dimen/setting_item_margin_left"
+		        android:layout_marginRight="@dimen/setting_item_margin_right"
+		        android:layout_marginTop="@dimen/setting_item_margin_top"
+		        android:layout_marginBottom="@dimen/setting_item_margin_bottom">
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="@dimen/setting_item_textsize"
+		            android:textColor="@drawable/text_color_black_white_selector"
+		            android:text="@string/setting_third_item2"
+		            android:layout_alignParentLeft="true"
+		            android:layout_centerVertical="true"/>
+		        <Button
+		            android:id="@+id/mArrow2Btn" 
+		            android:layout_width="@dimen/setting_arrow_width"
+		            android:layout_height="@dimen/setting_arrow_height"
+		            android:layout_marginRight="@dimen/setting_item_arrow_margin_right"
+		            android:background="@drawable/arrow_up_single"
+		            android:layout_alignParentRight="true"
+		            android:layout_centerVertical="true"
+		            android:visibility="invisible"/>
+			</RelativeLayout>
+			
+		    <TextView 
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/listview_divider_height"
+		        android:background="@color/divider_line"/>
+	    </LinearLayout>
+	</com.weiwend.fooldelivery.customviews.MyReboundScrollView>    
+</LinearLayout>
+

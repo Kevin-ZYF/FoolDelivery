@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mTotalContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+    
+    <include layout="@layout/activity_title"/>
+    
+    <!-- <com.weiwend.fooldelivery.customviews.MyReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"> -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+		    <LinearLayout
+		        android:id="@+id/mScanContainer"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="@dimen/query_second_scan_container_margin_left"
+		        android:layout_marginRight="@dimen/query_second_scan_container_margin_right"
+		        android:layout_marginTop="@dimen/query_second_scan_container_margin_top"
+		        android:orientation="horizontal"
+		        android:gravity="bottom">
+		        <Button
+		            android:id="@+id/mScanBtn"
+		            android:layout_width="@dimen/query_second_scan_btn_width"
+		            android:layout_height="@dimen/query_second_scan_btn_height"
+		            android:background="@drawable/sys2"/>
+		        <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="@dimen/query_second_scan_edittext_container_margin_left"
+			        android:orientation="vertical"
+			        android:gravity="center_vertical">
+			        <EditText
+			            android:id="@+id/mCodeShowEt"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_marginLeft="@dimen/query_second_scan_edittext_margin_left"
+				        android:singleLine="true"
+			            android:textSize="@dimen/query_second_scan_edittext_textsize"
+			            android:textColor="@color/black"
+			            android:background="@null"
+			            android:hint="@string/prompt_delivery_query_input_snum"
+			            android:maxLength="@integer/edittext_max_length"/>
+			        <TextView
+				        android:layout_width="match_parent"
+				        android:layout_height="@dimen/listview_divider_height"
+				        android:layout_marginTop="@dimen/query_second_line_margin_top"
+				        android:background="@color/divider_line"/>
+		        </LinearLayout>
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		        android:id="@+id/mCompanySelectContainer"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="@dimen/query_second_company_container_margin_left"
+		        android:layout_marginRight="@dimen/query_second_company_container_margin_right"
+		        android:layout_marginTop="@dimen/query_second_company_container_margin_top"
+		        android:orientation="horizontal"
+		        android:gravity="bottom"
+		        android:visibility="gone">
+		        <Button
+		            android:id="@+id/mDeliveryCompanySelectBtn"
+		            android:layout_width="@dimen/query_second_scan_btn_width2"
+		            android:layout_height="@dimen/query_second_scan_btn_height2"
+		            android:background="@drawable/car3"/>
+		        <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="@dimen/query_second_scan_edittext_container_margin_left"
+			        android:orientation="vertical"
+			        android:gravity="center_vertical">
+			        <RelativeLayout 
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content">
+			            <Button
+			                android:id="@+id/mArrowBtn"
+			                android:layout_width="@dimen/query_second_arrow_width"
+			                android:layout_height="@dimen/query_second_arrow_height"
+			                android:layout_marginRight="@dimen/query_second_arrow_margin_right"
+			                android:background="@drawable/arrow"
+			                android:layout_alignParentRight="true"
+			                android:layout_centerVertical="true"/>
+			            <TextView
+				            android:id="@+id/mDeliveryCompanyTv"
+				            android:layout_width="match_parent"
+				            android:layout_height="wrap_content"
+				            android:layout_marginLeft="@dimen/query_second_scan_edittext_margin_left"
+				            android:singleLine="true"
+				            android:layout_toLeftOf="@id/mArrowBtn"
+				            android:textSize="@dimen/query_second_scan_edittext_textsize"
+				            android:textColor="@color/black"
+				            android:background="@null"
+				            android:layout_centerVertical="true"
+				            android:hint="@string/prompt_delivery_query_select_company"/>
+			        </RelativeLayout>
+			        
+			        <TextView
+				        android:layout_width="match_parent"
+				        android:layout_height="@dimen/listview_divider_height"
+				        android:layout_marginTop="@dimen/query_second_line_margin_top"
+				        android:background="@color/divider_line"/>
+		        </LinearLayout>
+		    </LinearLayout>
+		    
+		    <!-- <ListView
+		        android:id="@+id/mExpressCompanyListview" 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:cacheColorHint="#00000000"
+		        android:divider="@color/divider_line"
+		        android:dividerHeight="1dp"
+		        android:visibility="gone"/>
+		    <LinearLayout
+		        android:id="@+id/mSelectExpressCompLayout"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical"
+			    android:background="#F8F8F6"
+			    android:visibility="gone">
+			    <TextView
+				     android:layout_width="match_parent"
+				     android:layout_height="wrap_content"
+				     android:layout_marginTop="10dip"
+				     android:layout_marginBottom="10dip"
+				     android:textSize="@dimen/query_second_history_item_textsize"
+				     android:textColor="#73bad6"
+				     android:singleLine="true"
+				     android:text="选择其他快递公司"
+				     android:gravity="center"/>
+		    </LinearLayout> -->
+		    
+		    <Button
+		       android:id="@+id/mQueryBtn"
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:layout_marginTop="@dimen/query_second_btn_margin_top"
+		       android:layout_marginLeft="@dimen/summit_btn_margin_left"
+		       android:layout_marginRight="@dimen/summit_btn_margin_right"
+		       android:paddingTop="@dimen/summit_btn_padding_top"
+		       android:paddingBottom="@dimen/summit_btn_padding_bottom"
+		       android:text="@string/btn_query"
+		       android:textColor="@drawable/btn_text_color_selector"
+		       android:background="@drawable/bg_btn_corner_orange"
+		       android:layout_gravity="center_horizontal"
+		       android:textSize="@dimen/summit_btn_textsize"
+		       android:visibility="gone"/>
+        </LinearLayout>
+	<!-- </com.weiwend.fooldelivery.customviews.MyReboundScrollView> -->
+</LinearLayout>

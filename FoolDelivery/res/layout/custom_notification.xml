@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+  <ImageView
+      android:id="@+id/mLogoView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="@dimen/version_update_notification_img_margin_left"
+      android:background="@drawable/ic_launcher"
+      android:contentDescription="@null"
+      android:layout_alignParentLeft="true"
+      android:layout_centerVertical="true"/>
+  <TextView 
+	  android:id="@+id/mStatusTv"
+	  android:layout_toRightOf="@id/mLogoView"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_marginLeft="@dimen/version_update_notification_text_margin_left"
+	  android:textSize="@dimen/textsize_big"
+	  android:layout_centerVertical="true"/>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/mNameTv"
+        android:layout_width="match_parent"
+        android:layout_height="46dip"
+        android:lines="2"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="17sp"/>
+</LinearLayout>

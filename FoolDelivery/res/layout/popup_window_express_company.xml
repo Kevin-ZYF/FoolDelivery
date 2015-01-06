@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ListView
+        android:id="@+id/mExpressCompanyListview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@color/listview_cache_color_hint"
+        android:divider="@color/divider_line">
+    </ListView>
+
+    <LinearLayout
+	   android:id="@+id/mSelectExpressCompLayout"
+	   android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+	   android:orientation="vertical"
+	   android:background="@color/bg_popupwindiw_express_bottom">
+	   <TextView
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_marginTop="@dimen/popupwindiw_express_bottom_margin_top"
+	     android:layout_marginBottom="@dimen/popupwindiw_express_bottom_margin_bottom"
+	     android:textSize="@dimen/query_second_history_item_textsize"
+	     android:textColor="@color/textcolor_popupwindiw_express_bottom"
+	     android:singleLine="true"
+	     android:text="@string/select_other_express_company"
+	     android:gravity="center"/>
+   </LinearLayout>
+ </LinearLayout>
+   

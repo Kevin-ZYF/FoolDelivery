@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_logo_hei">114.0px</dimen>
+    <dimen name="home_logo_wid">520.0px</dimen>
+    <dimen name="home_space_hei">25.0px</dimen>
+    <dimen name="home_tab_hei">50.0dip</dimen>
+</resources>

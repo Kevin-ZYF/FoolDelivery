@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="f1_magin_top">8.0dip</dimen>
+    <dimen name="f1_magin_top_2">15.0dip</dimen>
+    <dimen name="list_error_margin_top1">10.0dip</dimen>
+    <dimen name="list_error_margin_top2">5.0dip</dimen>
+    <dimen name="list_error_margin_top3">5.0dip</dimen>
+    <dimen name="margin_between_view">8.0dip</dimen>
+    <dimen name="margin_bottom_title">3.0dip</dimen>
+    <dimen name="margin_greenhand_head">60.0dip</dimen>
+    <dimen name="margin_greenhand_top">20.0dip</dimen>
+    <dimen name="margin_top_search_button">8.0dip</dimen>
+    <dimen name="margin_top_title">8.0dip</dimen>
+    <dimen name="new_function_btn_margin_bottom">35.0dip</dimen>
+    <dimen name="showboard_download_arrow_padding">0.0dip</dimen>
+    <dimen name="showboard_inquire_height">270.0dip</dimen>
+    <dimen name="showboard_inquire_height_">-270.0dip</dimen>
+    <dimen name="showboard_inquire_tab_height">40.0dip</dimen>
+    <dimen name="showboard_noattention_image_h_sd">200.0dip</dimen>
+    <dimen name="showboard_noattention_image_w_sd">240.0dip</dimen>
+    <dimen name="text_size_city_list_index">6.0dip</dimen>
+    <dimen name="train_station_item_height">30.0dip</dimen>
+    <dimen name="train_station_title_height">25.0dip</dimen>
+    <dimen name="voice_icon_top">0.0dip</dimen>
+    <dimen name="voice_notify_top">3.0dip</dimen>
+    <dimen name="voice_whatyousaid_top">0.0dip</dimen>
+</resources>

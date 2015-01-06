@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/mRefreshScrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        ptr:ptrAnimationStyle="flip">
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+		    <com.weiwend.fooldelivery.customviews.DelSlideListView
+				android:id="@+id/mDelSlideListView"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:drawSelectorOnTop="false"
+		        android:listSelector="@null"
+		        android:cacheColorHint="@color/listview_cache_color_hint"
+		        android:divider="@color/divider_line"
+		        android:dividerHeight="@dimen/listview_divider_height"/>
+        </LinearLayout>
+	</com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+</LinearLayout>

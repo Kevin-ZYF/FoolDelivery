@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    
+    <include layout="@layout/activity_title"/>
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_weight="16"
+		    android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_weight="10"
+		    android:orientation="vertical"
+		    android:gravity="center">
+		    <ImageView 
+		        android:layout_width="@dimen/about_us_icon_width"
+		        android:layout_height="@dimen/about_us_icon_height"
+		        android:background="@drawable/logo"/>
+		    <TextView
+		        android:id="@+id/mAppInfoTv"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="@dimen/about_us_version_margin_top"
+	            android:textSize="@dimen/textsize_biggest"
+	            android:textColor="@color/orange_normal"/>
+        </LinearLayout>
+        <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_weight="10"
+		    android:orientation="vertical"
+		    android:gravity="bottom">
+		    <TextView 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="@dimen/about_us_company_margin_bottom"
+	            android:layout_marginRight="@dimen/about_us_company_margin_right"
+	            android:textSize="@dimen/textsize_smaller"
+	            android:text="@string/about_us_company"
+	            android:gravity="right"
+	            android:textColor="@color/orange_normal"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

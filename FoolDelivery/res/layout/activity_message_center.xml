@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="bottom"
+    android:background="#ffffff">
+    
+    <LinearLayout
+        android:id="@+id/mTitleContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true">
+        
+	    <include layout="@layout/activity_title"/>
+	    
+	    <com.weiwend.fooldelivery.customviews.MyTitleTabView
+	          android:id="@+id/mTitleTabView"
+	          android:layout_width="match_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_marginTop="4dip"/>
+	</LinearLayout>
+	
+    <com.weiwend.fooldelivery.customviews.MyTabView
+          android:id="@+id/mTabView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"/>
+    
+    <FrameLayout   
+          android:id="@+id/contentLayout"  
+          android:layout_width="match_parent"   
+          android:layout_height="match_parent"
+          android:layout_above="@id/mTabView"
+          android:layout_below="@id/mTitleContainer"
+          android:background="#ffffff"/>
+
+</RelativeLayout>

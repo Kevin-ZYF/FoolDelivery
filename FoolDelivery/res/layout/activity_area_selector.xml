@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <include layout="@layout/activity_title" />
+    <EditText 
+        android:id="@+id/mAreaInputEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="14dip"
+        android:hint="直接搜索省/市/县(中文/拼音)"/>
+    <GridView
+        android:id="@+id/mGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="14dip"
+        android:layout_gravity="center"
+        android:numColumns="3"
+        android:verticalSpacing="20dip"
+        android:horizontalSpacing="10dip"/>
+</LinearLayout>

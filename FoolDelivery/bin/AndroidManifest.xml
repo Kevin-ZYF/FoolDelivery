@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.weiwend.fooldelivery"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+    <supports-screens 
+        android:largeScreens="true"  
+        android:normalScreens="true" 
+        android:smallScreens="true"  
+        android:anyDensity="true"/>
+    
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    
+    <uses-permission android:name="android.permission.GET_TASKS" />
+	<uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+	<uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_app"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:name="com.weiwend.fooldelivery.MyApplicaition">
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="43889861f633f677909acee809edbb9a" />
+        <activity
+            android:name="com.weiwend.fooldelivery.MainActivity"
+            android:label="@string/app_name" 
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.weiwend.fooldelivery.scan.MipcaCaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.weiwend.fooldelivery.QueryActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.weiwend.invalid.SenderModifyOldActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.weiwend.invalid.AreaSelectorActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.weiwend.fooldelivery.UserCenterActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.weiwend.fooldelivery.UserLoginActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.weiwend.fooldelivery.UserRegisterActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.weiwend.fooldelivery.MessageCenterActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.weiwend.fooldelivery.PswModifyActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.weiwend.fooldelivery.FeedbackActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- <activity
+            android:name="com.weiwend.fooldelivery.AddressManagerActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /> -->
+        <activity
+            android:name="com.weiwend.fooldelivery.AddressAddActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.weiwend.fooldelivery.AddressModifyActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- <activity
+            android:name="com.weiwend.fooldelivery.AddressSelectorActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /> -->
+        <activity
+            android:name="com.weiwend.fooldelivery.DeliveryInfoModifyActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.weiwend.fooldelivery.DeliveryCompanySelectActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.weiwend.fooldelivery.QueryResultActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.weiwend.invalid.AddressSelectorOldActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.weiwend.fooldelivery.SenderActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.weiwend.fooldelivery.AddressManagerActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.weiwend.invalid.QuerySecondActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity 
+            android:name="com.weiwend.fooldelivery.SettingActivity" 
+            android:configChanges="orientation|keyboardHidden" 
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustPan" />
+        <activity 
+            android:name="com.weiwend.fooldelivery.SettingMessageAlertActivity" 
+            android:configChanges="orientation|keyboardHidden" 
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustPan" /> 
+        <activity 
+            android:name="com.weiwend.fooldelivery.SettingDisturbActivity" 
+            android:configChanges="orientation|keyboardHidden" 
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustPan" />
+        <activity 
+            android:name="com.weiwend.fooldelivery.ParityActivity" 
+            android:configChanges="orientation|keyboardHidden" 
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustPan" />
+        <activity 
+            android:name="com.weiwend.fooldelivery.DeliveryQueryHistorySelectActivity" 
+            android:configChanges="orientation|keyboardHidden" 
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustPan" />
+        <activity 
+            android:name="com.weiwend.fooldelivery.UserLoginedActivity" 
+            android:configChanges="orientation|keyboardHidden" 
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustPan" />
+        <activity 
+            android:name="com.weiwend.fooldelivery.AboutUsActivity" 
+            android:configChanges="orientation|keyboardHidden" 
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustPan" />
+        <activity 
+            android:name="com.weiwend.fooldelivery.BindedMobileNumberModifyActivity" 
+            android:configChanges="orientation|keyboardHidden" 
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustPan" />
+        <activity 
+            android:name="com.weiwend.fooldelivery.PswForgetActivity" 
+            android:configChanges="orientation|keyboardHidden" 
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustPan" />
+        <activity 
+            android:name="com.weiwend.fooldelivery.AddressSelectorActivity" 
+            android:configChanges="orientation|keyboardHidden" 
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustPan" />
+        <activity 
+            android:name="com.weiwend.fooldelivery.SendSuccessActivity" 
+            android:configChanges="orientation|keyboardHidden" 
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustPan" />
+        <activity 
+            android:name="com.weiwend.fooldelivery.NearbyActivity" 
+            android:configChanges="orientation|keyboardHidden" 
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustPan" />
+        <activity 
+            android:name="com.weiwend.fooldelivery.RouteActivity" 
+            android:configChanges="orientation|keyboardHidden" 
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustPan" />
+        <activity 
+            android:name="com.weiwend.fooldelivery.QueryFailedActivity" 
+            android:configChanges="orientation|keyboardHidden" 
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustPan" />
+         <activity 
+            android:name="com.weiwend.fooldelivery.MyOrdersActivity" 
+            android:configChanges="orientation|keyboardHidden" 
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustPan" />
+         <activity 
+            android:name="com.weiwend.fooldelivery.SenderModifyActivity" 
+            android:configChanges="orientation|keyboardHidden" 
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustPan" />
+        
+        <!-- add for share sdk -->
+        <activity
+		   android:name="cn.sharesdk.framework.ShareSDKUIShell"
+		   android:theme="@android:style/Theme.Translucent.NoTitleBar"
+		   android:configChanges="keyboardHidden|orientation|screenSize"
+		   android:screenOrientation="portrait"
+		   android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+		   android:name="cn.sharesdk.demo.wxapi.WXEntryActivity"
+		   android:theme="@android:style/Theme.Translucent.NoTitleBar"
+		   android:configChanges="keyboardHidden|orientation|screenSize"
+		   android:exported="true"
+		   android:screenOrientation="portrait" />
+        
+        <receiver 
+            android:name="com.weiwend.fooldelivery.receiver.NotificationOnClickReceiver"
+            android:exported="false">
+		　　　　<intent-filter>    
+		　　　　　　<action android:name="com.weiwend.check.version"/>
+		　　　   </intent-filter>
+		</receiver> 
+    </application>
+
+</manifest>

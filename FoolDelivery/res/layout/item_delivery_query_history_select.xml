@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@drawable/listview_item_bg_selector">
+    <ImageView
+        android:id="@+id/mSelectView"
+        android:layout_width="@dimen/item_query_history_select_flag_width"
+        android:layout_height="@dimen/item_query_history_select_flag_height"
+        android:layout_marginLeft="@dimen/item_query_history_select_flag_margin_left"
+        android:background="@drawable/selector_normal"/>
+    
+    <com.weiwend.fooldelivery.customviews.MyLoaderImageView 
+        android:id="@+id/mLoaderImageView"
+        android:layout_width="@dimen/listview_icon_width"
+        android:layout_height="@dimen/listview_icon_height"
+        android:layout_margin="@dimen/listview_icon_margin"/>
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="@dimen/item_query_history_select_text_margin_left"
+		android:layout_marginRight="@dimen/item_query_history_select_text_margin_right"
+	    android:orientation="vertical"
+	    android:gravity="center">
+		 <TextView
+		     android:id="@+id/mDeliveryInfoTv" 
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:textSize="@dimen/textsize_normal"
+		     android:textColor="@color/black"
+		     android:singleLine="true"/>
+		 <TextView
+		     android:id="@+id/mStatusTv" 
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:layout_marginTop="@dimen/item_query_history_select_text_margin_top"
+		     android:textSize="@dimen/textsize_normal"
+		     android:textColor="@color/black"
+		     android:singleLine="true"/>
+		 <TextView
+		     android:id="@+id/mOrderTimeTv" 
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:layout_marginTop="@dimen/item_query_history_select_text_margin_top"
+		     android:textSize="@dimen/textsize_normal"
+		     android:textColor="@color/black"
+		     android:singleLine="true"/>
+	 </LinearLayout>
+
+</LinearLayout>

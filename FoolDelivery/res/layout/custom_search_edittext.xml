@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tabview_height"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_button">
+    <Button 
+        android:id="@+id/mSearchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"/>
+    <EditText 
+        android:id="@+id/mEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/mSearchBtn"
+        android:paddingLeft="@dimen/custom_edittext_btn_margin_left"
+        android:background="@null"/>
+</RelativeLayout>

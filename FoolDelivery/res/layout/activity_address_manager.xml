@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sp="http://schemas.android.com/apk/res/com.weiwend.fooldelivery"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    
+    <include layout="@layout/activity_title"/>
+    
+     <com.weiwend.fooldelivery.customviews.MyTitleTabView
+          android:id="@+id/mTitleTabView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/address_manager_title_margin_top"/>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+	        android:id="@+id/mAddressAddBtn"
+	        android:layout_alignParentBottom="true"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/address_recipient_add"
+	        android:textColor="@color/black"
+	        android:textSize="@dimen/textsize_bigger"
+	        android:visibility="gone"/>
+        <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+	        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+	        android:id="@+id/mRefreshScrollview"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        ptr:ptrAnimationStyle="flip">
+	        <FrameLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_above="@id/mAddressAddBtn">
+		        <com.weiwend.fooldelivery.customviews.DelSlideListView
+					android:id="@+id/mSendAddressListView"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:cacheColorHint="@color/listview_cache_color_hint"
+			        android:drawSelectorOnTop="false"
+			        android:listSelector="@null"
+			        android:divider="@color/divider_line"
+			        android:dividerHeight="@dimen/listview_divider_height"/>
+			   <com.weiwend.fooldelivery.customviews.DelSlideListView
+			        android:id="@+id/mRecipientAddressListView"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:cacheColorHint="@color/listview_cache_color_hint"
+			        android:divider="@color/divider_line"
+			        android:dividerHeight="@dimen/listview_divider_height"/>
+	        </FrameLayout>
+	    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+        
+    </RelativeLayout>
+    
+</LinearLayout>

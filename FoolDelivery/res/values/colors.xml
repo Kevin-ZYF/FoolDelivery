@@ -1,0 +1,52 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#333333</color>
+    <color name="gameco">#153975</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="transparent">#9000</color> 
+    <color name="transparent_background">#50000000</color>
+    
+    <!-- <color name="tabview_bg_active">#ec6900</color>
+    <color name="tabview_bg_normal">#f78000</color> -->
+    
+    <color name="orange_normal">#ed6900</color>
+    <color name="orange_selected">#f88000</color>
+    
+    <color name="divider_line">#dddbdb</color>
+    
+    <color name="blue_modify_text">#047ec5</color>
+    <color name="blue_agreement">#036eb8</color>
+    <color name="text_black">#000000</color>
+    <color name="bg_white">#ffffff</color>
+    <color name="bg_sender_item">#F8F8F6</color>
+    <color name="bg_deletable_btn">#F0F0F0</color>
+    <color name="listview_cache_color_hint">#00000000</color>
+    <color name="head_img_setting_dailog_line">#c1c1c1</color>
+    
+    <color name="bg_popupwindiw_express_bottom">#F8F8F6</color>
+    <color name="textcolor_popupwindiw_express_bottom">#73bad6</color>
+    
+    <color name="bg_query_result_item">#f7f7f7</color>
+    <color name="bg_del_listview_delete_container">#9FA0A0</color>
+    
+    <color name="bg_sender_title_not_selected">#8A8A8B</color>
+    
+    <color name="bg_title_right_btn">#d65e10</color>
+    
+    <color name="bg_user_center_login_container">#F2F2F2</color>
+    
+    <color name="bg_important">#ff0000</color>
+    
+    <color name="bg_parity_title">#f7f8f8</color>
+    
+    <color name="bg_parity_city_text">#9fa0a0</color>
+    
+    <color name="bg_hit_to_refresh_container">#fe8a18</color>
+    
+    <color name="bg_query_failed_text_blue">#4292ff</color>
+
+</resources>

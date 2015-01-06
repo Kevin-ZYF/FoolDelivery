@@ -1,0 +1,501 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="textsize_smallest">15sp</dimen>
+    <dimen name="textsize_smaller">16sp</dimen>
+    <dimen name="textsize_small">17sp</dimen>
+    <dimen name="textsize_normal">18sp</dimen>
+    <dimen name="textsize_big">20sp</dimen>
+    <dimen name="textsize_bigger">22sp</dimen>
+    <dimen name="textsize_biggest">24sp</dimen>
+    
+    <!-- 标题栏. -->
+    <dimen name="title_left_btn_margin_left">4dp</dimen>
+    <dimen name="title_right_btn_margin_right">4dp</dimen>
+    <dimen name="title_text_padding_top">3dp</dimen>
+    <dimen name="title_text_padding_bottom">5dp</dimen>
+    <dimen name="title_text_padding_left">6dp</dimen>
+    <dimen name="title_text_padding_right">6dp</dimen>
+    <dimen name="title_width">46dp</dimen>
+    <dimen name="title_height">46dp</dimen>
+    <dimen name="title_text_size">24sp</dimen>
+    <dimen name="title_left_btn_width">26dp</dimen>
+    <dimen name="title_left_btn_height">32dp</dimen>
+    <dimen name="title_right_btn_width">40dp</dimen>
+    <dimen name="title_right_btn_height">40dp</dimen>
+    <dimen name="title_more_btn_width">30dp</dimen>
+    <dimen name="title_more_btn_height">30dp</dimen>
+    
+    <!-- 主界面. -->
+    <dimen name="home_icon_width">36dip</dimen>
+    <dimen name="home_icon_height">36dip</dimen>
+    <dimen name="home_icon_big_width">54dip</dimen>
+    <dimen name="home_icon_big_height">54dip</dimen>
+    <dimen name="home_interval_icon_with_text">6dip</dimen>
+    <dimen name="home_interval_icon_with_icon">2dip</dimen>
+    <dimen name="home_icon_text_big_size">20sp</dimen>
+    <dimen name="home_icon_text_size">17sp</dimen>
+    <dimen name="home_gallery_margin_bottom">2dip</dimen>
+    
+    <!-- 查询页面. -->
+    <dimen name="query_container_height">50dip</dimen>
+    <dimen name="query_container_search_view_width">36dip</dimen>
+    <dimen name="query_container_search_view_height">36dip</dimen>
+    <dimen name="query_container_search_view_margin_right">4dip</dimen>
+    <dimen name="query_container_search_text_padding_left">4dip</dimen>
+    <dimen name="query_container_search_text_textsize">20sp</dimen>
+    <dimen name="query_container_margin_left">10dip</dimen>
+    <dimen name="query_container_margin_right">10dip</dimen>
+    <dimen name="query_container_margin_top">20dip</dimen>
+    <dimen name="scan_container_margin_width">80dip</dimen>
+    <dimen name="scan_container_margin_right">4dip</dimen>
+    <dimen name="scan_container_code_height">30dip</dimen>
+    <dimen name="scan_container_code_width">40dip</dimen>
+    <dimen name="scan_container_code_scan_textsize">12sp</dimen>
+    <dimen name="scan_container_code_tex_margin_top">-4dip</dimen>
+    <dimen name="query_history_container_height">40dip</dimen>
+    <dimen name="query_history_container_margin_top">20dip</dimen>
+    <dimen name="query_history_text_width">120dip</dimen>
+    <dimen name="query_history_text_padding_left">10dip</dimen>
+    <dimen name="query_history_text_textsize">18sp</dimen>
+    <dimen name="query_history_delete_btn_width">40dip</dimen>
+    <dimen name="query_history_delete_btn_height">40dip</dimen>
+    <dimen name="query_history_delete_btn_margin_right">10dip</dimen>
+    <dimen name="query_hit_text_margin_right">6dip</dimen>
+    <dimen name="query_hit_container_margin_left">4dip</dimen>
+    <dimen name="query_hit_container_margin_right">4dip</dimen>
+    
+    <!-- 查询二级页面. -->
+    <dimen name="query_second_scan_container_margin_top">20dip</dimen>
+    <dimen name="query_second_scan_container_margin_left">20dip</dimen>
+    <dimen name="query_second_scan_container_margin_right">20dip</dimen>
+    <dimen name="query_second_scan_btn_width">42dip</dimen>
+    <dimen name="query_second_scan_btn_height">42dip</dimen>
+    <dimen name="query_second_scan_btn_width2">42dip</dimen>
+    <dimen name="query_second_scan_btn_height2">42dip</dimen>
+    <dimen name="query_second_scan_edittext_container_margin_left">4dip</dimen>
+    <dimen name="query_second_scan_edittext_margin_left">4dip</dimen>
+    <dimen name="query_second_scan_edittext_textsize">18sp</dimen>
+    <dimen name="query_second_line_margin_top">2dip</dimen>
+    <dimen name="query_second_company_container_margin_left">20dip</dimen>
+    <dimen name="query_second_company_container_margin_right">20dip</dimen>
+    <dimen name="query_second_company_container_margin_top">10dip</dimen>
+    <dimen name="query_second_arrow_height">16dip</dimen>
+    <dimen name="query_second_arrow_width">16dip</dimen>
+    <dimen name="query_second_arrow_margin_right">10dip</dimen>
+    <dimen name="query_second_btn_margin_top">20dip</dimen>
+    <dimen name="query_second_history_container_margin_left">6dip</dimen>
+    <dimen name="query_second_history_container_margin_right">6dip</dimen>
+    <dimen name="query_second_history_item_margin_top">3dip</dimen>
+    <dimen name="query_second_history_item_textsize">16sp</dimen>
+    
+    <dimen name="send_history_item_textsize">17sp</dimen>
+    <dimen name="send_history_item_container_margin_left">6dip</dimen>
+    <dimen name="send_history_item_container_margin_right">6dip</dimen>
+    <dimen name="send_history_item_container_margin_bottom">6dip</dimen>
+    <dimen name="send_history_item_container_margin_top">6dip</dimen>
+    <dimen name="send_history_item_delete_btn_width">20dip</dimen>
+    <dimen name="send_history_item_delete_btn_height">20dip</dimen>
+    <dimen name="send_history_item_delete_text_margin_left">6dip</dimen>
+    <dimen name="send_history_item_delete_text_textsise">18sp</dimen>
+    
+    <dimen name="summit_btn_margin_left">40dip</dimen>
+    <dimen name="summit_btn_margin_right">40dip</dimen>
+    <dimen name="summit_btn_margin_top">30dip</dimen>
+    <dimen name="summit_btn_margin_bottom">10dip</dimen>
+    <dimen name="summit_btn_padding_top">4dip</dimen>
+    <dimen name="summit_btn_padding_bottom">4dip</dimen>
+    <dimen name="summit_btn_padding_left">12dip</dimen>
+    <dimen name="summit_btn_padding_right">12dip</dimen>
+    <dimen name="summit_btn_textsize">20sp</dimen>
+    <dimen name="summit_time_date_selector_btn_margin_left">20dip</dimen>
+    <dimen name="summit_time_date_selector_btn_margin_right">20dip</dimen>
+    <dimen name="summit_time_date_selector_btn_margin_top">10dip</dimen>
+    <dimen name="summit_time_date_selector_btn_margin_bottom">10dip</dimen>
+    <dimen name="summit_time_date_selector_btn_padding_top">3dip</dimen>
+    <dimen name="summit_time_date_selector_btn_padding_bottom">3dip</dimen>
+    <dimen name="summit_time_date_selector_btn_textsize">18sp</dimen>
+    <dimen name="listview_divider_height">1dip</dimen>
+    <dimen name="listview_divider_margin_bottom">2dip</dimen>
+    <dimen name="listview_divider_margin_top">2dip</dimen>
+    <dimen name="listview_icon_height">42dip</dimen>
+    <dimen name="listview_icon_width">42dip</dimen>
+    <dimen name="listview_icon_margin">8dip</dimen>
+    <dimen name="listview_delete_btn_padding_top">3dip</dimen>
+    <dimen name="listview_delete_btn_padding_bottom">3dip</dimen>
+    <dimen name="listview_delete_btn_padding_left">6dip</dimen>
+    <dimen name="listview_delete_btn_padding_right">6dip</dimen>
+    <dimen name="listview_delete_btn_textsize">16sp</dimen>
+    <dimen name="listview_delete_btn_margin_right">4dip</dimen>
+    <dimen name="listview_arrow_btn_width">16dip</dimen>
+    <dimen name="listview_arrow_btn_height">16dip</dimen>
+    <dimen name="listview_arrow_btn_margin_right">4dip</dimen>
+    <dimen name="dialog_btn_padding_top">2dip</dimen>
+    <dimen name="dialog_btn_padding_bottom">3dip</dimen>
+    <dimen name="dialog_btn_padding_left">16dip</dimen>
+    <dimen name="dialog_btn_padding_right">16dip</dimen>
+    <dimen name="dialog_btn_margin_left">40dip</dimen>
+    
+    <dimen name="login_icon_big_width">26dip</dimen>
+    <dimen name="login_icon_big_height">26dip</dimen>
+    <dimen name="login_status">20sp</dimen>
+    
+    <dimen name="user_logined_item_height">50dip</dimen>
+    <dimen name="user_logined_item_margin_top">10dip</dimen>
+    <dimen name="user_logined_item_margin_left">2dip</dimen>
+    <dimen name="user_logined_item_margin_right">2dip</dimen>
+    <dimen name="user_logined_item_arrow_width">16dip</dimen>
+    <dimen name="user_logined_item_arrow_height">16dip</dimen>
+    <dimen name="user_logined_item_arrow_margin_top">8dip</dimen>
+    <dimen name="user_logined_item_arrow_margin_right">2dip</dimen>
+    <dimen name="user_logined_item_arrow_margin_bottom">8dip</dimen>
+    <dimen name="user_logined_item_icon_margin_left">10dip</dimen>
+    <dimen name="user_logined_item_left_text_margin_left">6dip</dimen>
+    <dimen name="user_logined_item_icon_margin_top">8dip</dimen>
+    <dimen name="user_logined_item_icon_margin_bottom">8dip</dimen>
+    <dimen name="user_logined_textsize_normal">18sp</dimen>
+    <dimen name="user_logined_textsize_modify">17sp</dimen>
+    
+    <dimen name="user_login_item_margin_top">10dip</dimen>
+    <dimen name="user_login_item_margin_left">2dip</dimen>
+    <dimen name="user_login_item_margin_right">2dip</dimen>
+    <dimen name="user_login_icon_margin_left">20dip</dimen>
+    <dimen name="user_login_icon_margin_top">8dip</dimen>
+    <dimen name="user_login_icon_margin_bottom">8dip</dimen>
+    <dimen name="user_login_edittext_padding_left">6dip</dimen>
+    <dimen name="user_login_textsize_normal">18sp</dimen>
+    <dimen name="user_login_textsize_big">22sp</dimen>
+    <dimen name="user_login_auto_margin_left">28dip</dimen>
+    <dimen name="user_login_register_forget_margin_left">30dip</dimen>
+    <dimen name="user_login_register_forget_margin_right">30dip</dimen>
+    <dimen name="user_login_register_forget_margin_top">10dip</dimen>
+    
+    <dimen name="user_register_item_height">46dip</dimen>
+    <dimen name="user_register_item_margin_top">10dip</dimen>
+    <dimen name="user_register_item_margin_left">2dip</dimen>
+    <dimen name="user_register_item_margin_right">2dip</dimen>
+    <dimen name="user_register_edittext_padding_left">6dip</dimen>
+    <dimen name="user_register_textsize_normal">18sp</dimen>
+    <dimen name="user_register_textsize_big">22sp</dimen>
+    <dimen name="user_register_btn_code_padding_left">10dip</dimen>
+    <dimen name="user_register_btn_code_padding_right">10dip</dimen>
+    <dimen name="user_register_btn_code_padding_top">6dip</dimen>
+    <dimen name="user_register_btn_code_padding_bottom">6dip</dimen>
+    <dimen name="user_register_btn_code_margin_right">10dip</dimen>
+    <dimen name="user_register_edittext_code_margin_right">2dip</dimen>
+    <dimen name="user_register_agreement_margin_left">10dip</dimen>
+    <dimen name="user_register_agreement_padding">10dip</dimen>
+    
+    <dimen name="mobile_number_modify_item_margin_top">20dip</dimen>
+    <dimen name="mobile_number_modify_item_textsize">18sp</dimen>
+    <dimen name="mobile_number_modify_item_text_margin_left">6dip</dimen>
+    <dimen name="mobile_number_modify_item_text_margin_right">6dip</dimen>
+    <dimen name="mobile_number_modify_item_edittext_padding_left">10dip</dimen>
+    <dimen name="mobile_number_modify_code_btn_textsize">18sp</dimen>
+    <dimen name="mobile_number_modify_code_btn_padding_left">6dip</dimen>
+    <dimen name="mobile_number_modify_code_btn_padding_right">6dip</dimen>
+    <dimen name="mobile_number_modify_code_btn_padding_top">6dip</dimen>
+    <dimen name="mobile_number_modify_code_btn_padding_bottom">6dip</dimen>
+    <dimen name="mobile_number_modify_code_btn_margin_right">2dip</dimen>
+    <dimen name="mobile_number_modify_code_btn_margin_bottom">4dip</dimen>
+    
+    <dimen name="psw_modify_edittext_padding_left">10dip</dimen>
+    <dimen name="psw_modify_textsize">18sp</dimen>
+    <dimen name="psw_modify_text_margin_right">6dip</dimen>
+    <dimen name="psw_modify_item_margin_top">20dip</dimen>
+    
+    <dimen name="setting_toggle_width">70dip</dimen>
+    <dimen name="setting_toggle_height">34dip</dimen>
+    <dimen name="setting_arrow_width">26dip</dimen>
+    <dimen name="setting_arrow_height">26dip</dimen>
+    
+    <dimen name="setting_item_margin_top">10dip</dimen>
+    <dimen name="setting_item_margin_bottom">10dip</dimen>
+    <dimen name="setting_item_margin_left">10dip</dimen>
+    <dimen name="setting_item_margin_right">10dip</dimen>
+    <dimen name="setting_item_arrow_width">16dip</dimen>
+    <dimen name="setting_item_arrow_height">16dip</dimen>
+    <dimen name="setting_item_arrow_margin_right">10dip</dimen>
+    <dimen name="setting_item_textsize">18sp</dimen>
+    
+    <dimen name="sender_title_margin_bottom">6dip</dimen>
+    <dimen name="sender_address_selector_height">40dip</dimen>
+    <dimen name="sender_address_selector_right_icon_height">16dip</dimen>
+    <dimen name="sender_address_selector_right_icon_width">16dip</dimen>
+    <dimen name="sender_textsize_normal">18sp</dimen>
+    <dimen name="sender_textsize_small">16sp</dimen>
+    <dimen name="sender_textsize_smaller">16sp</dimen>
+    <dimen name="sender_item_arrow_width">16dip</dimen>
+    <dimen name="sender_item_arrow_height">16dip</dimen>
+    <dimen name="sender_item_arrow_margin_right">10dip</dimen>
+    <dimen name="sender_item_margin_left">4dip</dimen>
+    <dimen name="sender_item_margin_left2">12dip</dimen>
+    <dimen name="sender_item_margin_top">10dip</dimen>
+    <dimen name="sender_item_margin_top2">10dip</dimen>
+    <dimen name="sender_item_margin_top3">16dip</dimen>
+    <dimen name="sender_address_info_margin_top">12dip</dimen>
+    <dimen name="sender_address_info_margin_bottom">12dip</dimen>
+    <dimen name="sender_phone_info_margin_left">10dip</dimen>
+    <dimen name="sender_phone_info_margin_right">4dip</dimen>
+    <dimen name="sender_total_address_margin_right">4dip</dimen>
+    <dimen name="sender_click_add_contact_margin_right">4dip</dimen>
+    <dimen name="sender_edittext_padding_left">8dip</dimen>
+    <dimen name="sender_remark_container_margin_bottom">6dip</dimen>
+    <dimen name="sender_item_middle_textview_margin_left">4dip</dimen>
+    <dimen name="sender_item_middle_textview_margin_right">6dip</dimen>
+    
+    
+    <dimen name="user_center_item_height">60dip</dimen>
+    <dimen name="user_center_item_margin_top">8dip</dimen>
+    <dimen name="user_center_item_margin_left">2dip</dimen>
+    <dimen name="user_center_item_margin_right">2dip</dimen>
+    <dimen name="user_center_item_left_icon_height">36dip</dimen>
+    <dimen name="user_center_item_left_icon_width">36dip</dimen>
+    <dimen name="user_center_item_left_icon_margin_left">18dip</dimen>
+    <dimen name="user_center_item_right_icon_margin_right">4dip</dimen>
+    <dimen name="user_center_item_text_margin_right">10dip</dimen>
+    <dimen name="user_center_head_img_container_height">96dip</dimen>
+    <dimen name="user_center_head_img_width">60dip</dimen>
+    <dimen name="user_center_head_img_height">60dip</dimen>
+    <dimen name="user_center_head_img_left">10dip</dimen>
+    <dimen name="user_center_head_img_top">8dip</dimen>
+    <dimen name="user_center_head_img_bottom">8dip</dimen>
+    <dimen name="user_center_login_arrow_margin_right">4dip</dimen>
+    <dimen name="user_center_login_status_margin_left">12dip</dimen>
+    <dimen name="user_center_login_text_margin_right">6dip</dimen>
+    <dimen name="user_center_login_text_textsize">18sp</dimen>
+    
+    <dimen name="psw_forget_edittext_padding_left">10dip</dimen>
+    <dimen name="psw_forget_edittext_margin_top">20dip</dimen>
+    <dimen name="psw_forget_edittext_margin_bottom">2dip</dimen>
+    <dimen name="psw_forget_btn_code_margin_top">6dip</dimen>
+    <dimen name="psw_forget_btn_code_margin_bottom">6dip</dimen>
+    <dimen name="psw_forget_textsize_normal">18sp</dimen>
+    <dimen name="psw_forget_container_code_margin_top">4dip</dimen>
+    
+    <dimen name="sender_time_selector_margin">4dip</dimen>
+    
+    <dimen name="user_login_refresh_btn_width">100dip</dimen>
+    
+    <dimen name="message_center_title_selecor_height">50dip</dimen>
+    <dimen name="message_center_title_selecor_textsize">20sp</dimen>
+    
+    <dimen name="tabview_height">58dp</dimen>
+    <dimen name="tabview_icon_width">32dp</dimen>
+    <dimen name="tabview_icon_height">32dp</dimen>
+    <dimen name="tabview_title_text_size">14sp</dimen>
+    <dimen name="tabview_margin_top_icon">2dip</dimen>
+    <dimen name="tabview_margin_top_title">2dp</dimen>
+    
+    <dimen name="address_modify_text_size">18sp</dimen>
+    <dimen name="address_modify_text_margin_left">14dip</dimen>
+    <dimen name="address_modify_edittext_margin_left">4dip</dimen>
+    
+    <dimen name="delete_action_len">120dip</dimen>
+    
+    <dimen name="head_img_dialog_item_margin_top">10dip</dimen>
+    <dimen name="head_img_dialog_item_margin_bottom">10dip</dimen>
+    <dimen name="head_img_dialog_item_margin_left">4dip</dimen>
+    <dimen name="head_img_dialog_line_margin_left">2dip</dimen>
+    <dimen name="head_img_dialog_line_margin_right">2dip</dimen>
+    <dimen name="head_img_dialog_title_margin_left">4dip</dimen>
+    <dimen name="head_img_dialog_title_margin_top">4dip</dimen>
+    <dimen name="head_img_dialog_title_margin_bottom">4dip</dimen>
+    
+    <dimen name="deletable_btn_padding_left">10dip</dimen>
+    <dimen name="deletable_btn_padding_right">25dip</dimen>
+    <dimen name="deletable_btn_padding_top">10dip</dimen>
+    <dimen name="deletable_btn_padding_bottom">10dip</dimen>
+    <dimen name="deletable_btn_icon_padding">1dip</dimen>
+    <dimen name="deletable_btn_icon_margin_right">2dip</dimen>
+    <dimen name="deletable_btn_icon_margin_top">2dip</dimen>
+    
+    <dimen name="custom_dialog_title_margin_left">4dip</dimen>
+    <dimen name="custom_dialog_title_margin_top">4dip</dimen>
+    <dimen name="custom_dialog_title_margin_bottom">4dip</dimen>
+    <dimen name="custom_dialog_line_margin_left">2dip</dimen>
+    <dimen name="custom_dialog_line_margin_right">2dip</dimen>
+    <dimen name="custom_dialog_content_margin_top">20dip</dimen>
+    <dimen name="custom_dialog_content_margin_bottom">20dip</dimen>
+    <dimen name="custom_dialog_content_margin_left">4dip</dimen>
+    <dimen name="custom_dialog_content_padding_left">4dip</dimen>
+    <dimen name="custom_dialog_bottom_margin_top">10dip</dimen>
+    <dimen name="custom_dialog_bottom_margin_bottom">10dip</dimen>
+    
+    <dimen name="custom_gallery_cursor_margin_bottom">6dip</dimen>
+    
+    <dimen name="custom_toast_original_message_margin_left">8dip</dimen>
+    <dimen name="custom_toast_original_message_margin_right">8dip</dimen>
+    <dimen name="custom_toast_original_message_margin_top">3dip</dimen>
+    <dimen name="custom_toast_original_message_margin_bottom">4dip</dimen>
+    
+    <dimen name="custom_progress_dialog_progressbar_margin_top">30dip</dimen>
+    <dimen name="custom_progress_dialog_progressbar_margin_bottom">30dip</dimen>
+    <dimen name="custom_progress_dialog_text_margin_top">10dip</dimen>
+    <dimen name="custom_progress_dialog_text_margin_bottom">10dip</dimen>
+    <dimen name="custom_progress_dialog_text_margin_left">20dip</dimen>
+    <dimen name="custom_progress_dialog_container_margin_left">20dip</dimen>
+    <dimen name="custom_progress_dialog_container_margin_right">20dip</dimen>
+    <dimen name="custom_edittext_btn_margin_left">4dip</dimen>
+    <dimen name="custom_date_time_selector_icon_width">5dip</dimen>
+    <dimen name="custom_date_time_selector_icon_height">5dip</dimen>  
+    <dimen name="custom_date_time_gridview_vertical_spacing">20dip</dimen>
+    <dimen name="custom_date_time_gridview_horizontal_spacing">10dip</dimen>
+    <dimen name="custom_sender_title_text_container">10dip</dimen>
+    <dimen name="custom_captcha_progress_margin_top">10dip</dimen>
+    <dimen name="custom_captcha_progress_margin_bottom">10dip</dimen>
+    
+    <dimen name="custom_sender_title_height">50dip</dimen>
+    <dimen name="custom_sender_title_text_margin_bottom">2dip</dimen>
+    <dimen name="custom_sender_bg_margin_bottom">-1dip</dimen>
+    
+    <dimen name="version_update_notification_img_margin_left">4dip</dimen>
+    <dimen name="version_update_notification_text_margin_left">10dip</dimen>
+    
+    <dimen name="popupwindiw_more_icon_width">28dip</dimen>
+    <dimen name="popupwindiw_more_icon_height">28dip</dimen>
+    <dimen name="popupwindiw_more_text_margin_left">6dip</dimen>
+    <dimen name="popupwindiw_more_item_height">40dip</dimen>
+    <dimen name="popupwindiw_more_item_padding_left">20dip</dimen>
+    <dimen name="popupwindiw_more_item_padding_right">20dip</dimen>
+    
+    <dimen name="popupwindiw_express_bottom_margin_top">10dip</dimen>
+    <dimen name="popupwindiw_express_bottom_margin_bottom">10dip</dimen>
+    
+    <dimen name="item_suggestions_margin">6dip</dimen>
+    
+    <dimen name="item_query_result_margin">6dip</dimen>
+    <dimen name="item_query_result_icon_width">26dip</dimen>
+    <dimen name="item_query_result_icon_height">26dip</dimen>
+    <dimen name="item_query_result_icon_margin_left">6dip</dimen>
+    <dimen name="item_query_result_content_margin_right">6dip</dimen>
+    <dimen name="item_query_result_date_margin">6dip</dimen>
+    <dimen name="item_query_result_time_container_margin_top">4dip</dimen>
+    <dimen name="item_query_result_time_container_margin_bottom">6dip</dimen>
+    <dimen name="item_query_result_margin_top">10dip</dimen>
+    <dimen name="item_query_result_margin_bottom">10dip</dimen>
+    
+    <dimen name="item_parity_icon_phone_width">40dip</dimen>
+    <dimen name="item_parity_icon_phone_height">40dip</dimen>
+    <dimen name="item_parity_icon_select_width">53dip</dimen>
+    <dimen name="item_parity_icon_select_height">24dip</dimen>
+    <dimen name="item_parity_icon_select_margin_top">15dip</dimen>
+    <dimen name="item_parity_text_margin_top">4dip</dimen>
+    <dimen name="item_parity_text_margin_top2">2dip</dimen>
+    <dimen name="item_parity_text_margin_bottom">4dip</dimen>
+    <dimen name="item_parity_texts_margin_left">6dip</dimen>
+    <dimen name="item_parity_option_container_margin_left">6dip</dimen>
+    <dimen name="item_parity_option_container_margin_right">6dip</dimen>
+    
+    <dimen name="item_nearby_icon_width">24dip</dimen>
+    <dimen name="item_nearby_icon_height">24dip</dimen>
+    <dimen name="item_nearby_icon_margin_right">10dip</dimen>
+    <dimen name="item_nearby_phone_container_margin_top">6dip</dimen>
+    <dimen name="item_nearby_phone_container_margin_bottom">6dip</dimen>
+    <dimen name="item_nearby_text_container_margin_left">6dip</dimen>
+    <dimen name="item_nearby_text_margin_top">12dip</dimen>
+    <dimen name="item_nearby_text_margin_top2">4dip</dimen>
+    <dimen name="item_nearby_text_margin_bottom2">12dip</dimen>
+    <dimen name="item_nearby_addr_margin_right">2dip</dimen>
+    
+    <dimen name="item_express_company_search_icon_width">18dip</dimen>
+    <dimen name="item_express_company_search_icon_height">18dip</dimen>
+    <dimen name="item_express_company_search_icon_margin_left">6dip</dimen>
+    <dimen name="item_express_company_container_margin_top">6dip</dimen>
+    <dimen name="item_express_company_container_margin_bottom">6dip</dimen>
+    <dimen name="item_query_history_select_flag_width">18dip</dimen>
+    <dimen name="item_query_history_select_flag_height">18dip</dimen>
+    <dimen name="item_query_history_select_flag_margin_left">10dip</dimen>
+    <dimen name="item_query_history_select_text_margin_left">6dip</dimen>
+    <dimen name="item_query_history_select_text_margin_right">6dip</dimen>
+    <dimen name="item_query_history_select_text_margin_top">3dip</dimen>
+    <dimen name="item_company_select_text_margin_left">6dip</dimen>
+    <dimen name="item_company_select_text_margin_right">6dip</dimen>
+    
+    <dimen name="item_del_address_text_margin_left">8dip</dimen>
+    <dimen name="item_del_address_text_margin_right">6dip</dimen>
+    <dimen name="item_del_address_text_margin_top">6dip</dimen>
+    <dimen name="item_del_address_text_margin_bottom">6dip</dimen>
+    <dimen name="item_del_address_edit_margin_left">12dip</dimen>
+    
+    <dimen name="item_area_margin">6dip</dimen>
+    <dimen name="item_address_margin">6dip</dimen>
+    
+    <dimen name="about_us_icon_width">220dip</dimen>
+    <dimen name="about_us_icon_height">40dip</dimen>
+    <dimen name="about_us_version_margin_top">14dip</dimen>
+    <dimen name="about_us_company_margin_bottom">10dip</dimen>
+    <dimen name="about_us_company_margin_right">6dip</dimen>
+    
+    <dimen name="important_margin_left">4dip</dimen>
+    
+    <dimen name="icon_location_width">36dip</dimen>
+    <dimen name="icon_location_height">36dip</dimen>
+    
+    <dimen name="address_add_item_margin_top">6dip</dimen>
+    <dimen name="address_add_item_margin_bottom">6dip</dimen>
+    <dimen name="address_add_text_container_margin_left">10dip</dimen>
+    <dimen name="address_add_text_container_margin_right">10dip</dimen>
+    <dimen name="address_add_edittext_padding_left">6dip</dimen>
+    
+    <dimen name="address_manager_title_margin_top">4dip</dimen>
+    
+    <dimen name="listview_margin_left">4dip</dimen>
+    <dimen name="listview_margin_right">4dip</dimen>
+    
+    <dimen name="parity_jt_margin_left">10dip</dimen>
+    <dimen name="parity_jt_margin_right">10dip</dimen>
+    <dimen name="parity_btn_padding_top">6dip</dimen>
+    <dimen name="parity_btn_padding_bottom">2dip</dimen>
+    <dimen name="parity_btn_padding_left">8dip</dimen>
+    <dimen name="parity_btn_padding_right">8dip</dimen>
+    <dimen name="parity_underline_height">2dip</dimen>
+    <dimen name="parity_item_margin_top">10dip</dimen>
+    <dimen name="parity_city_container_margin_left">20dip</dimen>
+    <dimen name="parity_city_container_margin_right">20dip</dimen>
+    <dimen name="parity_summit_btn_width">50dip</dimen>
+    <dimen name="parity_summit_btn_height">25dip</dimen>
+    <dimen name="parity_place_holder_height">10dip</dimen>
+    
+    <dimen name="weight_container_height">40dip</dimen>
+    <dimen name="weight_container_margin_left">12dip</dimen>
+    <dimen name="weight_btn_width">20dip</dimen>
+    <dimen name="weight_edittext_width">100dip</dimen>
+    
+    <dimen name="feedback_edittext_padding_left">6dip</dimen>
+    <dimen name="feedback_total_container_margin_top">20dip</dimen>
+    <dimen name="feedback_total_container_margin_left">10dip</dimen>
+    <dimen name="feedback_total_container_margin_right">10dip</dimen>
+    <dimen name="feedback_item_margin_top">8dip</dimen>
+    <dimen name="feedback_item_margin_top2">10dip</dimen>
+    <dimen name="feedback_edittext_snum_height">36dip</dimen>
+    <dimen name="feedback_edittext_suggestion_height">100dip</dimen>
+    <dimen name="feedback_btn_select_from_history_width">200dip</dimen>
+    <dimen name="feedback_btn_select_from_history_height">36dip</dimen>
+    <dimen name="feedback_btn_select_from_history_padding_left">10dip</dimen>
+    <dimen name="feedback_btn_select_from_history_padding_right">10dip</dimen>
+    <dimen name="feedback_btn_select_from_history_padding_top">6dip</dimen>
+    <dimen name="feedback_btn_select_from_history_padding_bottom">6dip</dimen>
+    <dimen name="feedback_btn_select_from_history_margin_top">10dip</dimen>
+    <dimen name="feedback_underline_margin_top">2dip</dimen>
+    
+    <dimen name="sender_success_continue_sender_margin_left">30dip</dimen>
+    <dimen name="sender_success_container_margin_top">120dip</dimen>
+    <dimen name="sender_success_container_margin_top2">10dip</dimen>
+    <dimen name="sender_success_container_margin_top3">16dip</dimen>
+    <dimen name="sender_success_container_margin_left">6dip</dimen>
+    <dimen name="sender_success_container_margin_right">6dip</dimen>
+    
+    <dimen name="query_failed_title_margin_top">30dip</dimen>
+    <dimen name="query_failed_item_margin_top">10dip</dimen>
+    <dimen name="query_failed_item_margin_left">30dip</dimen>
+    <dimen name="query_failed_line_margin_top">10dip</dimen>
+    <dimen name="query_failed_line_margin_left">10dip</dimen>
+    <dimen name="query_failed_line_margin_right">10dip</dimen>
+    <dimen name="query_failed_blue_text_margin_left">20dip</dimen>
+    <dimen name="query_failed_blue_text_margin_right">20dip</dimen>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+	<RelativeLayout
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_marginLeft="@dimen/custom_progress_dialog_container_margin_left"
+	  android:layout_marginRight="@dimen/custom_progress_dialog_container_margin_right">
+	  <ProgressBar
+	      android:id="@+id/mProgressBar" 
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_marginTop="@dimen/custom_progress_dialog_progressbar_margin_top"
+	      android:layout_marginBottom="@dimen/custom_progress_dialog_progressbar_margin_bottom"
+	      android:layout_alignParentLeft="true"
+	      android:layout_centerVertical="true"/>
+	  <TextView 
+		  android:id="@+id/mMsgTv"
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:layout_toRightOf="@id/mProgressBar"
+		  android:layout_marginTop="@dimen/custom_progress_dialog_text_margin_top"
+	      android:layout_marginBottom="@dimen/custom_progress_dialog_text_margin_bottom"
+	      android:layout_marginLeft="@dimen/custom_progress_dialog_text_margin_left"
+		  android:textSize="@dimen/textsize_normal"
+		  android:textColor="@color/white"
+		  android:layout_centerVertical="true"/>
+	</RelativeLayout>
+</LinearLayout>

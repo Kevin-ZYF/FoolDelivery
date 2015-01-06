@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.weiwend.fooldelivery.customviews.ScrollLinerLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:background="@drawable/listview_item_bg_selector">
+    
+    <RelativeLayout
+        android:id="@+id/mLeftContainer"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:gravity="center"
+	    android:visibility="visible">
+	    <ImageView
+	        android:id="@+id/mArrowView" 
+	        android:layout_width="@dimen/listview_arrow_btn_width"
+	        android:layout_height="@dimen/listview_arrow_btn_height"
+	        android:layout_marginRight="@dimen/listview_arrow_btn_margin_right"
+	        android:background="@drawable/arrow"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerInParent="true"/>
+	    <LinearLayout
+	        android:layout_toLeftOf="@id/mArrowView"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="@dimen/item_del_address_text_margin_left"
+		    android:layout_marginRight="@dimen/item_del_address_text_margin_right"
+		    android:orientation="vertical"
+		    android:layout_centerInParent="true">
+		    <LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="@dimen/item_del_address_text_margin_top"
+			    android:orientation="horizontal">
+				 <TextView
+				     android:id="@+id/mNameView" 
+				     android:layout_width="wrap_content"
+				     android:layout_height="wrap_content"
+				     android:textSize="@dimen/textsize_normal"
+				     android:textColor="@color/black"
+				     android:singleLine="true"/>
+				 <TextView
+				     android:id="@+id/mPhoneView" 
+				     android:layout_width="match_parent"
+				     android:layout_height="wrap_content"
+				     android:layout_marginLeft="@dimen/item_del_address_text_margin_left"
+				     android:textSize="@dimen/textsize_normal"
+				     android:textColor="@color/black"
+				     android:singleLine="true"/>
+		    </LinearLayout>
+		    <LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="@dimen/item_del_address_text_margin_top"
+			    android:layout_marginBottom="@dimen/item_del_address_text_margin_bottom"
+			    android:orientation="horizontal">
+				 <TextView
+				     android:id="@+id/mPreAddressView" 
+				     android:layout_width="wrap_content"
+				     android:layout_height="wrap_content"
+				     android:textSize="@dimen/textsize_normal"
+				     android:textColor="@color/black"
+				     android:singleLine="true"/>
+				 <TextView
+				     android:id="@+id/mDetailAddressView" 
+				     android:layout_width="match_parent"
+				     android:layout_height="wrap_content"
+				     android:textSize="@dimen/textsize_normal"
+				     android:textColor="@color/black"
+				     android:singleLine="true"/>
+		    </LinearLayout>
+		</LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/mRightContainer"
+        android:layout_width="@dimen/delete_action_len"
+        android:layout_height="match_parent"
+        android:background="@color/bg_del_listview_delete_container"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/mDeleteView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/del_listview_delete"
+            android:textSize="@dimen/textsize_normal"
+            android:textColor="@drawable/btn_text_color_selector" />
+        
+        <TextView
+            android:id="@+id/mEditView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_del_address_edit_margin_left"
+            android:gravity="center"
+            android:text="@string/del_listview_edit"
+            android:textSize="@dimen/textsize_normal"
+            android:textColor="@drawable/btn_text_color_selector" />
+    </LinearLayout>
+
+</com.weiwend.fooldelivery.customviews.ScrollLinerLayout>

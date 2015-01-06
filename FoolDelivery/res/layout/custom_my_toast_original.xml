@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:background="@drawable/bg_custom_toast_original">
+  <TextView 
+	  android:id="@+id/mMsgTv"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_marginLeft="@dimen/custom_toast_original_message_margin_left"
+	  android:layout_marginRight="@dimen/custom_toast_original_message_margin_right"
+	  android:layout_marginTop="@dimen/custom_toast_original_message_margin_top"
+	  android:layout_marginBottom="@dimen/custom_toast_original_message_margin_bottom"
+	  android:textSize="@dimen/textsize_normal"
+	  android:gravity="center"
+	  android:textColor="@color/white"/>
+</LinearLayout>

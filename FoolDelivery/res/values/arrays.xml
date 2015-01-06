@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="select_capture_items">
+	    <item>选择本地图片</item>
+	    <item>拍照</item>
+	</string-array>
+	<string-array name="time_items">
+	    <item>6:00</item>
+	    <item>7:00</item>
+	    <item>8:00</item>
+	    <item>9:00</item>
+	    <item>10:00</item>
+	    <item>11:00</item>
+	    <item>12:00</item>
+	    <item>13:00</item>
+	    <item>14:00</item>
+	    <item>15:00</item>
+	    <item>16:00</item>
+	    <item>17:00</item>
+	    <item>18:00</item>
+	</string-array>
+	<string-array name="date_items">
+	    <item>马上寄出</item>
+	    <item>今天</item>
+	    <item>明天</item>
+	    <item>后天</item>
+	</string-array>
+	<string-array name="date_items_today_not_available">
+	    <item>明天</item>
+	    <item>后天</item>
+	</string-array>
+	<integer-array name="tabview_icon_normal">
+	    <item>@drawable/ic_launcher</item>
+	    <item>@drawable/ic_launcher</item>
+	    <item>@drawable/ic_launcher</item>
+	    <item>@drawable/ic_launcher</item>
+	</integer-array>
+	
+	<integer-array name="tabview_icon_active">
+	    <item>@drawable/ic_launcher</item>
+	    <item>@drawable/ic_launcher</item>
+	    <item>@drawable/ic_launcher</item>
+	    <item>@drawable/ic_launcher</item>
+	</integer-array>
+	
+	<string-array name="suggestion_message_items">
+	    <item>投诉建议消息1</item>
+	    <item>投诉建议消息2</item>
+	    <item>投诉建议消息3</item>
+	    <item>投诉建议消息4</item>
+	    <item>投诉建议消息5</item>
+	    <item>投诉建议消息6</item>
+	    <item>投诉建议消息7</item>
+	</string-array>
+	
+	<string-array name="system_message_items">
+	    <item>系统消息1</item>
+	    <item>系统消息2</item>
+	    <item>系统消息3</item>
+	    <item>系统消息4</item>
+	    <item>系统消息5</item>
+	    <item>系统消息6</item>
+	    <item>系统消息7</item>
+	</string-array>
+	
+	<string-array name="status_text">
+	    <item>已下单</item>
+	    <item>已受理</item>
+	    <item>已揽收</item>
+	    <item>已取消</item>
+	</string-array>
+</resources>

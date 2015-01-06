@@ -1,0 +1,216 @@
+# view res/layout/custom_my_gallery.xml #generated:6
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:253
+-keep class cn.sharesdk.demo.wxapi.WXEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:247
+-keep class cn.sharesdk.framework.ShareSDKUIShell { <init>(...); }
+
+# view res/layout/activity_route.xml #generated:10
+-keep class com.amap.api.maps2d.MapView { <init>(...); }
+
+# view res/layout/activity_delivery_company_select.xml #generated:9
+# view res/layout/activity_delivery_query_history_select.xml #generated:9
+# view res/layout/activity_nearby.xml #generated:10
+# view res/layout/activity_parity.xml #generated:141
+# view res/layout/activity_query.xml #generated:65
+# view res/layout/activity_query_result.xml #generated:63
+# view res/layout/fragment_suggest_message.xml #generated:7
+# view res/layout/fragment_system_message.xml #generated:7
+-keep class com.handmark.pulltorefresh.library.PullToRefreshListView { <init>(...); }
+
+# view res/layout/activity_address_manager.xml #generated:28
+# view res/layout/fragment_sender_history.xml #generated:7
+-keep class com.handmark.pulltorefresh.library.PullToRefreshScrollView { <init>(...); }
+
+# view AndroidManifest.xml #generated:195
+-keep class com.weiwend.fooldelivery.AboutUsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.weiwend.fooldelivery.AddressAddActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:155
+-keep class com.weiwend.fooldelivery.AddressManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class com.weiwend.fooldelivery.AddressModifyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:210
+-keep class com.weiwend.fooldelivery.AddressSelectorActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class com.weiwend.fooldelivery.BindedMobileNumberModifyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+-keep class com.weiwend.fooldelivery.DeliveryCompanySelectActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:130
+-keep class com.weiwend.fooldelivery.DeliveryInfoModifyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:185
+-keep class com.weiwend.fooldelivery.DeliveryQueryHistorySelectActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.weiwend.fooldelivery.FeedbackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.weiwend.fooldelivery.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.weiwend.fooldelivery.MessageCenterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.weiwend.fooldelivery.MyApplicaition { <init>(...); }
+
+# view AndroidManifest.xml #generated:235
+-keep class com.weiwend.fooldelivery.MyOrdersActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:220
+-keep class com.weiwend.fooldelivery.NearbyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:180
+-keep class com.weiwend.fooldelivery.ParityActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:205
+-keep class com.weiwend.fooldelivery.PswForgetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.weiwend.fooldelivery.PswModifyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.weiwend.fooldelivery.QueryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:230
+-keep class com.weiwend.fooldelivery.QueryFailedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.weiwend.fooldelivery.QueryResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:225
+-keep class com.weiwend.fooldelivery.RouteActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:215
+-keep class com.weiwend.fooldelivery.SendSuccessActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:150
+-keep class com.weiwend.fooldelivery.SenderActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:240
+-keep class com.weiwend.fooldelivery.SenderModifyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:165
+-keep class com.weiwend.fooldelivery.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:175
+-keep class com.weiwend.fooldelivery.SettingDisturbActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:170
+-keep class com.weiwend.fooldelivery.SettingMessageAlertActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.weiwend.fooldelivery.UserCenterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.weiwend.fooldelivery.UserLoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:190
+-keep class com.weiwend.fooldelivery.UserLoginedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class com.weiwend.fooldelivery.UserRegisterActivity { <init>(...); }
+
+# view res/layout/activity_address_manager.xml #generated:38
+# view res/layout/activity_address_manager.xml #generated:47
+# view res/layout/fragment_sender_history.xml #generated:17
+-keep class com.weiwend.fooldelivery.customviews.DelSlideListView { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:24
+-keep class com.weiwend.fooldelivery.customviews.MyCycleGallery { <init>(...); }
+
+# view res/layout/activity_address_selector.xml #generated:48
+# view res/layout/activity_address_selector.xml #generated:60
+# view res/layout/activity_address_selector.xml #generated:72
+# view res/layout/activity_address_selector2.xml #generated:19
+# view res/layout/activity_address_selector2.xml #generated:31
+# view res/layout/activity_address_selector2.xml #generated:43
+-keep class com.weiwend.fooldelivery.customviews.MyDeletableBtn { <init>(...); }
+
+# view res/layout/custom_time_selector.xml #generated:61
+-keep class com.weiwend.fooldelivery.customviews.MyGridView { <init>(...); }
+
+# view res/layout/activity_user_center.xml #generated:30
+-keep class com.weiwend.fooldelivery.customviews.MyHeadImageLoaderView { <init>(...); }
+
+# view res/layout/item_del_listview_send_history.xml #generated:23
+# view res/layout/item_delivery_company_selector.xml #generated:8
+# view res/layout/item_delivery_query_history.xml #generated:50
+# view res/layout/item_delivery_query_history_select.xml #generated:15
+# view res/layout/item_nearby.xml #generated:12
+# view res/layout/item_parity_company.xml #generated:10
+-keep class com.weiwend.fooldelivery.customviews.MyLoaderImageView { <init>(...); }
+
+# view res/layout/activity_address_add.xml #generated:27
+# view res/layout/activity_binded_mobile_number_modify.xml #generated:9
+# view res/layout/activity_feedback.xml #generated:9
+# view res/layout/activity_psw_forget.xml #generated:9
+# view res/layout/activity_psw_modify.xml #generated:9
+# view res/layout/activity_setting.xml #generated:9
+# view res/layout/activity_setting_second.xml #generated:10
+# view res/layout/activity_setting_third.xml #generated:10
+# view res/layout/activity_user_center.xml #generated:9
+# view res/layout/activity_user_login.xml #generated:9
+# view res/layout/activity_user_logined.xml #generated:9
+# view res/layout/activity_user_register.xml #generated:8
+# view res/layout/fragment_sender.xml #generated:20
+-keep class com.weiwend.fooldelivery.customviews.MyReboundScrollView { <init>(...); }
+
+# view res/layout/activity_sender.xml #generated:17
+-keep class com.weiwend.fooldelivery.customviews.MySenderTitleTabView { <init>(...); }
+
+# view res/layout/activity_message_center.xml #generated:25
+# view res/layout/activity_query.xml #generated:13
+# view res/layout/activity_sender.xml #generated:25
+# view res/layout/fragment_sender.xml #generated:14
+-keep class com.weiwend.fooldelivery.customviews.MyTabView { <init>(...); }
+
+# view res/layout/activity_address_manager.xml #generated:10
+# view res/layout/activity_message_center.xml #generated:18
+-keep class com.weiwend.fooldelivery.customviews.MyTitleTabView { <init>(...); }
+
+# view res/layout/activity_address_add.xml #generated:209
+# view res/layout/activity_setting_second.xml #generated:63
+# view res/layout/activity_setting_second.xml #generated:90
+-keep class com.weiwend.fooldelivery.customviews.MyToggleButton { <init>(...); }
+
+# view res/layout/item_del_listview_address.xml #generated:2
+# view res/layout/item_del_listview_send_history.xml #generated:2
+-keep class com.weiwend.fooldelivery.customviews.ScrollLinerLayout { <init>(...); }
+
+# view res/layout/fragment_sender.xml #generated:507
+-keep class com.weiwend.fooldelivery.customviews.TimeSelectorView { <init>(...); }
+
+# view AndroidManifest.xml #generated:260
+-keep class com.weiwend.fooldelivery.receiver.NotificationOnClickReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.weiwend.fooldelivery.scan.MipcaCaptureActivity { <init>(...); }
+
+# view res/layout/activity_login_scan.xml #generated:16
+-keep class com.weiwend.fooldelivery.scan.ViewfinderView { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class com.weiwend.invalid.AddressSelectorOldActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.weiwend.invalid.AreaSelectorActivity { <init>(...); }
+
+# view res/layout/activity_user_register.xml #generated:131
+-keep class com.weiwend.invalid.MyCaptchaShowView { <init>(...); }
+
+# view AndroidManifest.xml #generated:160
+-keep class com.weiwend.invalid.QuerySecondActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.weiwend.invalid.SenderModifyOldActivity { <init>(...); }
+
